@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Accordian</title>
+</head>
+<body>
+    <div class="text-center p-10 ">
+        <h1 class="text-4xl font-bold italic underline underline-offset-8 text-blue-500">Accordrian</h1>
+    </div>
+    <div class="flex flex-col gap-5">
+        <!-- acc-1 -->
+        <div class="mx-auto p-5 shadow-lg w-1/2 flex flex-col rounded-md">
+            <div class="flex justify-between p-4">
+                <h1 class="font-bold text-lg">Do you Accept All Major Credit Cards? </h1>
+                <button id="arrow1-btn"><span><svg id="arrow1" class="rotate-180" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter"><path d="M16.939 7.939 12 12.879l-4.939-4.94-2.122 2.122L12 17.121l7.061-7.06z"></path></svg></span></button>
+            </div>
+            <div id="para1" class="p-4">
+                <hr class="mb-5">
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, corporis fuga! Accusantium laborum vel esse sit deleniti vitae vero voluptatibus.</h1>
+            </div>
+        </div>
+        <!-- acc-2 -->
+        <div class="mx-auto p-5 shadow-lg w-1/2 flex flex-col rounded-md">
+            <div class="flex justify-between p-4">
+                <h1 class="font-bold text-lg">Do you Support Local Farmers? </h1>
+                <button id="arrow2-btn"><span><svg id="arrow2" class="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter"><path d="M16.939 7.939 12 12.879l-4.939-4.94-2.122 2.122L12 17.121l7.061-7.06z"></path></svg></span></button>
+            </div>
+            <div id="para2" class="p-4 hidden">
+                <hr class="mb-5">
+                <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, atque deserunt quo a voluptatum suscipit excepturi neque perspiciatis unde vel.</h1>
+            </div>
+        </div>
+        <!-- acc-3 -->
+        <div class="mx-auto p-5 shadow-lg w-1/2 flex flex-col rounded-md">
+            <div class="flex justify-between p-4">
+                <h1 class="font-bold text-lg">Do you use Organic Ingredients? </h1>
+                <button id="arrow3-btn"><span><svg id="arrow3" class="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter"><path d="M16.939 7.939 12 12.879l-4.939-4.94-2.122 2.122L12 17.121l7.061-7.06z"></path></svg></span></button>
+            </div>
+            <div id="para3" class="p-4 hidden">
+                <hr class="mb-5">
+                <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates aut id nemo assumenda sint ipsum quod sunt nisi porro repellat.</h1>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
